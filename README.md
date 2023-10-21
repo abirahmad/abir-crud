@@ -5,6 +5,8 @@ It's crud generator
 
 composer require abir/crud
 
+set database to .env file
+
 run "php artisan migrate"
 
 redirect to /user/create
