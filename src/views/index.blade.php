@@ -35,7 +35,7 @@
                             <td>{{ $crud->message }}</td>
                             <td>
                                 <a href="{{ route('users.edit', $crud->id) }}" class="btn btn-info">Edit</a>
-                                <a href="{{ route('users.destroy', $crud->id) }}" class="btn btn-danger">Delete</a>
+                                <a href="{{ route('users.delete', $crud->id) }}" class="btn btn-danger">Delete</a>
                             </td>
                         </tr>
                     @endforeach
