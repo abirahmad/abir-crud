@@ -2,8 +2,9 @@
 It's crud generator
 
 # Installation
-
-composer require abir/crud
+```bash
+$ composer require abir/crud
+```
 
 set database to .env file
 
@@ -13,3 +14,8 @@ redirect to /user/create
 
 optional:
 add this class to app.php file "Abir\Crud\CrudServiceProvider::class"
+
+# Run the application
+```bash
+$ php artisan serve
+```

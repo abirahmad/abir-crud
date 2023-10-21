@@ -9,9 +9,6 @@ use Illuminate\Http\Request;
 
 class CrudController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
     public function index()
     {
         $cruds = Crud::all();
