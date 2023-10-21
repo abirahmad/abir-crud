@@ -12,6 +12,7 @@
                     @endforeach
                 </ul>
             </div>
+            
         @endif
         <a href="{{route('users.create')}}" class="btn btn-info">Create</a>
         <div class="card" style="width: 50rem;">

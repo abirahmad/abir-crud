@@ -1,2 +1,4 @@
 # Crud Operation package
-Something
+It's crud generator
+
+# Installation
