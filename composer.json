@@ -1,0 +1,28 @@
+{
+    "name": "abir/crud",
+    "description": "it's crud generator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abir Ahmad"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Abir\\Crud\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Abir\\Crud\\CrudServiceProvider"
+            ],
+            "aliases": {
+                "Crud": "Abir\\Crud\\"
+            }
+        }
+    }
+}
