@@ -40,7 +40,7 @@ class CrudController extends Controller
                 'email' => $request->email,
                 'message' => $request->message,
             ]);
-            return redirect()->route('user.index');
+            return redirect()->route('users.index');
         }
     }
 
@@ -85,7 +85,7 @@ class CrudController extends Controller
      */
     public function destroy(int $id)
     {
-        return $id;
+        dd($id);
         $crud=Crud::findOrFail($id);
 
         if(!is_null($crud)){

@@ -19,10 +19,7 @@
         "laravel": {
             "providers": [
                 "Abir\\Crud\\CrudServiceProvider"
-            ],
-            "aliases": {
-                "Crud": "Abir\\Crud\\"
-            }
+            ]
         }
     }
 }

@@ -14,7 +14,7 @@
                     </ul>
                 </div>
             @endif --}}
-            <form action="{{ route('user.store') }}" method="POST">
+            <form action="{{ route('users.store') }}" method="POST">
                 @method('post')
                 @csrf
                 <input type="text" class="form-control" name="name" value="{{old('name')}}" placeholder="Your name plase"><br>
@@ -26,7 +26,7 @@
                     <div class="text-danger">{{ $message }}</div>
                 @enderror
                 <textarea type="message" class="form-control" name="message" placeholder="Your message plase"></textarea>
-                <button type="submit" class="btn-btn-info">Submit</button>
+                <button type="submit" class="btn btn-info">Submit</button>
             </form>
         </div>
     </div>
